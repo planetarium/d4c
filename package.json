@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "dependencies": {
+    "@apollo/gateway": "^2.5.4",
+    "@apollo/server": "^4.9.3",
+    "@graphql-tools/delegate": "^10.0.2",
+    "@graphql-tools/wrap": "^10.0.0",
+    "cross-undici-fetch": "^0.4.14",
+    "graphql": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  }
+}
